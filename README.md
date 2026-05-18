@@ -1,7 +1,8 @@
 # Customer_Sales_behavior_analysis
 Data analytics Project showcasing customer behavior analysis using python, sql and power BI
 Customer Shopping Behavior Analysis
-Project Overview
+
+# Project Overview
 
 This project analyzes customer shopping behavior using transactional purchase data to uncover valuable business insights. The analysis focuses on customer demographics, purchasing patterns, product preferences, subscription behavior, and discount usage.
 
@@ -15,15 +16,15 @@ Business reporting and presentation using Gamma
 
 The goal of this project is to help businesses make data-driven decisions related to customer retention, product strategy, and marketing optimization.
 
-Dataset Summary
+# Dataset Summary
 
 The dataset contains customer transaction records collected from shopping activities.
 
-Dataset Details
+# Dataset Details
 Total Rows: 3,900
 Total Columns: 18
 
-Key Features
+# Key Features
 Customer demographics:
 Age
 Gender
@@ -43,11 +44,11 @@ Frequency of Purchases
 Review Rating
 Shipping Type
 
-Data Quality
+# Data Quality
 Missing values identified in the Review Rating column
 Duplicate and inconsistent records checked during preprocessing
 
-Tools & Technologies
+# Tools & Technologies
 Tool	Purpose
 Python	Data analysis and preprocessing
 Pandas & NumPy	Data manipulation
@@ -57,7 +58,7 @@ Power BI	Dashboard development
 Gamma	Presentation creation
 Jupyter Notebook	Python coding environment
 
-Project Workflow
+# Project Workflow
 1. Data Loading
 Imported the dataset into Python using Pandas
 Explored dataset structure using:
@@ -98,7 +99,7 @@ Top products by category
 Repeat buyers and subscriptions
 Revenue contribution by age group
 
-Power BI Dashboard
+# Power BI Dashboard
 
 An interactive Power BI dashboard was created to visualize business insights.
 
@@ -111,21 +112,21 @@ Subscription analysis
 Interactive slicers and filters
 Trend analysis charts
 
-Key Insights & Results
+# Key Insights & Results
 Loyal and repeat customers contribute significantly to revenue
 Subscribers tend to spend more on average
 Certain products are highly dependent on discounts
 Express shipping customers show higher purchase values
 Specific age groups generate the highest revenue
 
-Business Recommendations
+# Business Recommendations
 Introduce stronger loyalty programs for repeat customers
 Promote subscription benefits to increase retention
 Optimize discount strategies to protect profit margins
 Focus marketing efforts on high-performing customer segments
 Highlight top-rated products in campaigns
 
-Project Structure
+# Project Structure
 Customer-Shopping-Behavior-Analysis/
 │
 ├── dataset/
@@ -136,7 +137,7 @@ Customer-Shopping-Behavior-Analysis/
 ├── presentation/
 ├── README.md
 
-How to Run the Project
+# How to Run the Project
 Python Analysis
 Install required libraries:
 pip install pandas numpy matplotlib seaborn
@@ -151,7 +152,8 @@ Run SQL scripts from the sql_queries/ folder
 Power BI Dashboard
 Open the .pbix dashboard file in Power BI Desktop
 Refresh the dataset connection if needed
-Conclusion
+
+# Conclusion
 
 This project showcases practical data analytics skills across the full analytics lifecycle:
 
